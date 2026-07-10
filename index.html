@@ -1,62 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>EB - Portal</title>
-    <style>
-        body {
-            background: #1b1b1b;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 50px;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        h1 {
-            font-size: 35px;
-        }
+<title>EB Exército Brasileiro| Central</title>
 
-        p {
-            color: #ccc;
-        }
-
-        .botao {
-            background: #2ecc71;
-            color: white;
-            border: none;
-            padding: 15px 30px;
-            margin: 10px;
-            border-radius: 10px;
-            font-size: 18px;
-            cursor: pointer;
-        }
-
-        .botao:hover {
-            opacity: 0.8;
-        }
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>🇧🇷 Exército Brasileiro</h1>
-    <p>Portal oficial de serviços</p>
+<header>
+<h1>Exército Brasileiro</h1>
+<p>Menu do Site</p>
+</header>
 
-    <h2>Menu</h2>
+<div class="container">
 
-    <button class="botao" id="comprar">
-        🛒 Comprar Cargo
-    </button>
-
-    <button class="botao" id="suporte">
-        🛠️ Suporte
-    </button>
-
-    <button class="botao" id="alistamento">
-        🎖️ Alistamento
-    </button>
+<div class="card">
+<h2>🎫 Suporte SGEx</h2>
+<p>Precisa de ajuda? Abra um ticket.</p>
+<button onclick="suporte()">Abrir Ticket</button>
+</div>
 
 
-    <script src="script.js"></script>
+<div class="card">
+<h2>🌐 Comunidade</h2>
+<p>Entre no nosso servidor oficial.</p>
+<button onclick="comunidade()">Entrar</button>
+</div>
+
+
+<div class="card">
+<h2>🛒 Cargo Exclusivo</h2>
+<p>Compre cargos exclusivos.</p>
+<button onclick="comprar()">Comprar</button>
+</div>
+
+</div>
+
+<footer>
+SGEx © 2026
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
