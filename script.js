@@ -1,5 +1,5 @@
 function suporte(){
-window.open("https://discord.gg/pWtJdpfDK","_blank");
+window.open("https://discord.gg/RWDb9KBWyv","_blank");
 }
 
 function comprar(){
